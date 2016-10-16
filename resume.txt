@@ -1,0 +1,106 @@
+
+Kenji Tan
+408 813 7045
+ktan442@gmail.com
+https://github.com/ktan2020
+
+
+SUMMARY
+=======
+
+* Automation, SDK, Tools developer with 13+ years of diversified experience. Highly motivated senior level contributor and team lead
+* Expertise in tools and automation framework design and implementation. Exceptional analytical, problem solving and debugging skills
+* Proficient: Java, Jython, Python, Groovy. Familiar: Ruby, JRuby, Javascript, Bash, XML/XSLT, AWK, Perl, C#, C/C++, SQL
+* Windows, Linux, Mac OSX. Visual Studio, GNU Make(Cygwin & MinGW), XCode, Eclipse, IntelliJ IDEA, PyCharm
+* Deep understanding of Linux: Debian, Ubuntu, RedHat, CentOS, Fedora. Cloud/VPS server (Digital Ocean, AWS)
+* SDLC: Agile Scrum, Kanban, Continuous Integration / Continuous Delivery (Jenkins, CircleCI), Subversion, Git, Mercurial, GitHub, Bitbucket, Jira, Rally, Bugzilla
+
+
+PROFESSIONAL EXPERIENCE
+=======================
+
+Lead Principal Engineer
+United Health Group (Optum), San Jose, CA
+9/2012 - 8/2016
+
+* As automation lead I was responsible for company’s automation initiative. Optum Health Information Exchange (multitenant SaaS) platform is a distributed message-based datastore connecting healthcare providers and organizations with patient health records.
+* Architected and defined automation strategy. Investigated, evaluated and made recommendations in proper tools selection targeting specific areas of server stack.
+* Created cross-platform Automation Toolkit distribution (SDK) for Windows and Linux. Standalone toolkit included standard Python (2.7) bundled with Selenium WebDriver, PhantomJS,RobotFramework, BeautifulSoup, lxml, requests, pytest, JPype as well as proprietary internal test framework libraries.
+* Designed and wrote automation framework along with test runner / harness in Python. Test runner had capability for dynamic runtime discovery and enumeration. Harness had capability to run different implementations of tests via custom module loaders in either single-threaded or parallel mode in a unified workflow.
+* My team was tasked with spearheading and mentoring automation principles and best practices (page object model, keyword-based, data-driven, loose-coupling). Team was also responsible for guiding test content creation of automated end-to-end testing. Scope of automated tests included WebServices (SOAP), Oracle DB, Websphere MQ, HTML5. Tests were implemented in Python, Groovy, SoapUI, Java.
+* Played key role in integrating fully automated end-to-end QA workflows into CI/CD pipeline. Worked closely with release engineering and key stakeholders to define workflow requirements and fine-tune automation strategy and deployment pipeline. Used various BI and KPI indicators via internal dashboards to monitor, identify and quantify potential issues.
+* Wrote cli utilities to expedite fixture (db & cache servers) setup and teardowns during automated runs. Also wrote cli tools using Rally REST API for interfacing with and pushing results back to Rally.
+* Championed use of Jenkins as self-service portal for on-demand / push-button deploys and runs of various test suites targeting different cloud environments.
+* Maintained and patched cloud-based Selenium Grid cluster running RHEL and Windows Server.
+* https://github.com/ktan2020/legacy-automation
+
+
+Sr SDK Engineer
+Barnes & Noble Digital, Palo Alto, CA
+1/2011 - 6/2012
+
+* Key engineer in building and customizing of Android SDK for different Nook product lines (Color, Tablet, SimpleTouch). Process of building SDK involved ’virtual’ bringup of emulator ROM filesystem from TI’s upstream AOSP platform source.
+* Delivered 4 major product releases based on Eclair, Froyo, Gingerbread, Ice Cream Sandwich. SDK package comprises QEMU emulator, ROM filesystem, along with customized ADB.
+* Built and delivered both internal and external (add-on) SDK packages for all major platforms (Linux, Windows, OSX).
+* Made various improvements to QEMU emulator ranging from faster bootup times to better hardware fidelity. Proudest enhancement was addition of grayscale algorithm to emulator to match EINK display.
+* Worked closely with Developer Relations team to implement 3rd party APIs along with coordinating SDK deliverables.
+* Investigated and explored alternative Android platform implementations such as Android x86 and CyanogenMod.
+* https://android-review.googlesource.com/#/c/23381/
+
+
+Sr Software Engineer
+HP (Palm), Sunnyvale, CA
+1/2008 - 1/2011
+
+* Part of team that delivered SDK package (developer.palm.com). Co-wrote and maintained SDK command line tools for WebOS.
+* Primary author of WebOS emulator ’host-mode’. Host-mode was a nodejs-based HTTP proxy server operating as transport layer bridging desktop browser and emulator. This feature allowed users to inspect apps via WebKit Inspector
+* Led redesign and reimplementation of test automation framework that was fully integrated with daily build system. Framework scheduled and dispatched 1000's of JUnit and LTP tests to hosts in distributed system. Took initiative to write command line frontend to Swing-based flashing tool which was vital to automation.
+* Rebuilt unreliable Asterisk VOIP cloud server and deployed for telephony QA use. Fine-tuned server for optimal performance (5x improvement) and stability.
+
+
+Software Engineer
+Premier Retail Networks, San Francisco, CA
+2/2007 - 1/2008
+
+* Wrote device controller code to interface via serial port (RS232) with HD-enabled STB and LCD Flat Panel displays. Integrated into framework for use in an IPTV-based (H.264/MPEG-4) digital signage platform in retail production setting.
+
+
+R&D Software Engineer
+Align Technology (Invisalign), Santa Clara, CA
+2/2006 - 2/2007
+
+* Designed and implemented new plugin for displaying occlusal dental profile in color-coded format as part of Windows-based OrthoCAD application
+* http://www.google.com/patents/US8587582
+
+
+Software Developer
+Referentia Systems Inc., Honolulu, HI
+5/2003 - 2/2006
+
+* Ported legacy application from VB 6 to C# .NET 2.0. Wrote modular and reusable UI controls / widgets using .NET Forms.
+* Built VPN router device using Soekris Net4801 embedded computer running FreeBSD
+
+
+PROJECTS
+========
+
+* http://mmm.x10host.com/ - 2D graphical plot of assessed property values. Technologies used: Selenium WebDriver, HTML/XML parser/scraper, Scrapy, SQLite, JSON, Bootstrap, Zillow API.
+* https://github.com/ktan2020/Intro_Algorithms - Implementation of examples in CLRS book using Groovy. Personal sandbox for experimenting with algorithms.
+* https://github.com/ktan2020/ms_thesis/blob/master/final_thesis.pdf - Stereoscopic visualization using StereoGraphics StereoEyes. Prototyped and implemented stereo viewing using 'blueline' stereo encoding format on consumer grade graphics accelerator and CRT monitor.
+
+
+EDUCATION
+=========
+
+* Linux Device Driver, Advanced Linux Device Driver, Android Application Development
+UCSC Extension, Santa Clara, California
+
+* Master of Science in Computer Science
+San Jose State University, San Jose, California
+
+* Bachelor of Science in Mathematics and Computer Science (Magna Cum Laude)
+Colorado School of Mines, Golden, Colorado
+
+
+
+

@@ -1,0 +1,246 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.0cm, top=.8cm, right=1.0cm, bottom=.8cm, footskip=.25cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{false}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+\usepackage{hyperref}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+\name{Kenji Tan}{}
+\mobile{408-813-7045} 
+\email{ktan442@gmail.com}
+\github{github.com/ktan2020}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {}
+  {}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	Summary
+%-------------------------------------------------------------------------------
+\cvsection{Summary}
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {}
+    {}
+    {}
+    {}
+    {
+      \begin{cvitems} 
+        \item {Automation, SDK, Tools developer with 13+ years of diversified experience. Highly motivated senior level contributor and team lead}
+        \item {Expertise in tools and automation framework design and implementation. Exceptional analytical, problem solving and debugging skills}
+        \item {Proficient: Java, Jython, Python, Groovy. Familiar: Ruby, JRuby, Javascript, Bash, XML/XSLT, AWK, Perl, C\#, C/C++, SQL}
+        \item {Windows, Linux, Mac OSX. Visual Studio, GNU Make(Cygwin \& MinGW), XCode, Eclipse, IntelliJ IDEA, PyCharm}
+        \item {Deep understanding of Linux: Debian, Ubuntu, RedHat, CentOS, Fedora. Cloud/VPS server (Digital Ocean, AWS)}
+        \item {SDLC: Agile Scrum, Kanban, Continuous Integration / Continuous Delivery (Jenkins, CircleCI), Subversion, Git, Mercurial, GitHub, Bitbucket, Jira, Rally, Bugzilla}
+      \end{cvitems}
+    }
+
+\end{cventries}
+
+
+%-------------------------------------------------------------------------------
+%	Professional Experience
+%-------------------------------------------------------------------------------
+\cvsection{Professional Experience}
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {Lead Principal Engineer} % Job title
+    {United Health Group (Optum)} % Organization
+    {San Jose, CA} % Location
+    {9/2012 - 8/2016} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {As automation lead I was responsible for company’s automation initiative. Optum Health Information Exchange (multi-tenant SaaS) platform is a distributed message-based datastore connecting healthcare providers and organizations with patient health records.}
+        \item {Architected and defined automation strategy. Investigated, evaluated and made recommendations in proper tools selection targeting specific areas of server stack.}
+        \item {Created cross-platform Automation Toolkit distribution (SDK) for Windows and Linux. Standalone toolkit included standard Python (2.7) bundled with Selenium WebDriver, PhantomJS, Robot Framework, BeautifulSoup, lxml, requests, pytest, JPype as well as proprietary internal test framework libraries.}
+        \item {Designed and wrote automation framework along with test runner / harness in Python. Test runner had capability for dynamic runtime discovery and enumeration. Harness had capability to run different implementations of tests via custom module loaders in either single-threaded or parallel mode in a unified workflow.}
+        \item {My team was tasked with spearheading and mentoring automation principles and best practices (page object model, keyword-based, data-driven, loose-coupling). Team was also responsible for guiding test content creation of automated end-to-end testing. Scope of automated tests included WebServices (SOAP), Oracle DB, Websphere MQ, HTML5. Tests were implemented in Python, Groovy, SoapUI, Java.}
+        \item {Played key role in integrating fully automated end-to-end QA workflows into CI/CD pipeline. Worked closely with release engineering and key stakeholders to define workflow requirements and fine-tune automation strategy and deployment pipeline. Used various BI and KPI indicators via internal dashboards to monitor, identify and quantify potential issues.}
+        \item {Wrote cli utilities to expedite fixture (db \& cache servers) setup and teardowns during automated runs. Also wrote cli tools using Rally REST API for interfacing with and pushing results back to Rally.}
+        \item {Championed use of Jenkins as self-service portal for on-demand / push-button deploys and runs of various test suites targeting different cloud environments.}
+        \item {Maintained and patched cloud-based Selenium Grid cluster running RHEL and Windows Server.}
+		\item {\href{https://github.com/ktan2020/legacy-automation}{https://github.com/ktan2020/legacy-automation}}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {Sr. SDK Engineer} % Job title
+    {Barnes \& Noble Digital} % Organization
+    {Palo Alto, CA} % Location
+    {1/2011 - 6/2012} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Key engineer in building and customizing of Android SDK for different Nook product lines (Color, Tablet, SimpleTouch). Process of building SDK involved 'virtual' bringup of emulator ROM filesystem from TI's upstream AOSP platform source.}
+        \item {Delivered 4 major product releases based on Eclair, Froyo, Gingerbread, Ice Cream Sandwich. SDK package comprises QEMU emulator, ROM filesystem, along with customized ADB.}
+        \item {Built and delivered both internal and external (add-on) SDK packages for all major platforms (Linux, Windows, OSX).}
+        \item {Made various improvements to QEMU emulator ranging from faster bootup times to better hardware fidelity. Proudest enhancement was addition of grayscale algorithm to emulator to match EINK display.}
+        \item {Worked closely with Developer Relations team to implement 3rd party APIs along with coordinating SDK deliverables.}
+        \item {Investigated and explored alternative Android platform implementations such as Android x86 and CyanogenMod.} 
+        \item {\href{https://android-review.googlesource.com/\#/c/23381/}{https://android-review.googlesource.com/\#/c/23381/}}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {Sr. Software Engineer} % Job title
+    {HP (Palm)} % Organization
+    {Sunnyvale, CA} % Location
+    {1/2008 - 1/2011} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Part of team that delivered SDK package (developer.palm.com). Co-wrote and maintained SDK command line tools for WebOS.}
+        \item {Primary author of WebOS emulator 'host-mode'. Host-mode was a nodejs-based HTTP proxy server operating as transport layer
+bridging desktop browser and emulator. This feature allowed users to inspect apps via WebKit Inspector.}
+        \item {Led redesign and reimplementation of test automation framework that was fully integrated with daily build system. Framework scheduled and dispatched 1000's of JUnit and LTP tests to hosts in distributed system. Took initiative to write command line frontend to Swing-based flashing tool which was vital to automation.} 
+        \item {Rebuilt unreliable Asterisk VOIP cloud server and deployed for telephony QA use. Fine-tuned server for optimal performance (5x improvement) and stability.}
+      \end{cvitems} 
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {Software Engineer} % Job title
+    {Premier Retail Networks} % Organization
+    {San Francisco, CA} % Location
+    {2/2007 - 1/2008} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Wrote device controller code to interface via serial port (RS232) with HD-enabled STB and LCD Flat Panel displays. Integrated into framework for use in an IPTV-based (H.264/MPEG-4) digital signage platform in retail production setting.}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {R\&D Software Engineer} % Job title
+    {Align Technology (Invisalign)} % Organization
+    {Santa Clara, CA} % Location
+    {2/2006 - 2/2007} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Designed and implemented new plugin for displaying occlusal dental profile in color-coded format as part of Windows-based OrthoCAD application}
+        \item {\href{http://www.google.com/patents/US8587582}{http://www.google.com/patents/US8587582}}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {Software Developer} % Job title
+    {Referentia Systems Inc.} % Organization
+    {Honolulu, HI} % Location
+    {5/2003 - 2/2006} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Ported legacy application from VB 6 to C\# .NET 2.0. Wrote modular and reusable UI controls / widgets using .NET Forms.}
+        \item {Built VPN router device using Soekris Net4801 embedded computer running FreeBSD}
+      \end{cvitems}      
+    }
+
+%---------------------------------------------------------
+\end{cventries}
+
+
+%-------------------------------------------------------------------------------
+%	Projects
+%-------------------------------------------------------------------------------
+\cvsection{Projects}
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {} % Affiliation/role
+    {} % Organization/group
+    {} % Location
+    {} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of experience/contributions/knowledge
+        \item {\href{http://mmm.x10host.com/}{http://mmm.x10host.com/} -- 2D graphical plot of assessed property values. Technologies used: Selenium WebDriver, HTML/XML parser/scraper, Scrapy, SQLite, JSON, Bootstrap, Zillow API.}        
+        \item {\href{https://github.com/ktan2020/Intro\_Algorithms}{https://github.com/ktan2020/Intro\_Algorithms} -- Implementation of examples in CLRS book using Groovy. Personal sandbox for experimenting with algorithms.}
+        \item {\href{https://github.com/ktan2020/ms\_thesis/blob/master/final\_thesis.pdf}{https://github.com/ktan2020/ms\_thesis/blob/master/final\_thesis.pdf} -- Stereoscopic visualization using StereoGraphics StereoEyes. Prototyped and implemented stereo viewing using 'blueline' stereo encoding format on consumer grade graphics accelerator and CRT monitor.}
+      \end{cvitems}      
+    }
+
+\end{cventries}
+
+
+
+%-------------------------------------------------------------------------------
+%	Education
+%-------------------------------------------------------------------------------
+\cvsection{Education}
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {Linux Device Driver, Advanced Linux Device Driver, Android Application Development} % Degree
+    {UCSC Extension} % Institution
+    {Santa Clara, California} % Location
+    {} % Date(s)
+    {}
+    
+  \cventry
+    {Master of Science in Computer Science} % Degree
+    {San Jose State University} % Institution
+    {San Jose, California} % Location
+    {} % Date(s)
+    {}    
+    
+  \cventry
+    {Bachelor of Science in Mathematics and Computer Science (Magna Cum Laude)} % Degree
+    {Colorado School of Mines} % Institution
+    {Golden, Colorado} % Location
+    {} % Date(s)
+    {}        
+
+%---------------------------------------------------------
+\end{cventries}
+
+
+
+%-------------------------------------------------------------------------------
+\end{document}
